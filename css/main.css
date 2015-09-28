@@ -66,15 +66,59 @@ ul{
     padding: 0;
 }
 
+#container{
+    background: #fff;
+    width: 85%;
+    margin: 10px auto;
+    overflow: auto;
+    border-radius: 10px;
+}
 
+header#main{
+    padding: 10px;
+    background: #f4f4f4;
+}
 
+nav{
+    height: 40px;
+    background: #aaa;
+    overflow: hidden;
+}
 
+nav li{
+    float: left;
+    padding: 10px 10px 0 10px;
+    list-style: none;
+}
 
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
 
+nav a:hover{
+    color: #000;
+}
 
+main{
+    padding: 20px;
+}
 
+section#main{
+    width: 70%;
+    float: left;
+}
 
+aside{
+    width: 20%;
+    float: right;
+}
 
+footer{
+    padding: 20px;
+    text-align: center;
+}
 
 
 
@@ -82,8 +126,17 @@ ul{
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-
+@media only screen and (max-width: 600px) {
+   section#main{
+        width: 100%;
+        float: none;
+        text-align: center;
+   }
+    aside{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
 }
 
 @media print,
