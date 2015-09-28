@@ -108,6 +108,7 @@ main{
 section#main{
     width: 70%;
     float: left;
+    position: relative;
 }
 
 aside{
@@ -118,6 +119,14 @@ aside{
 footer{
     padding: 20px;
     text-align: center;
+}
+
+#holder{
+    position: absolute;
+    top: 10px;
+    left: 340px;
+    font-size: 35px;
+    width: 260px;
 }
 
 

@@ -30,10 +30,18 @@
             <main>
                 <section id="main">
                     <article>
-                        <h2>My Headline</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut est rutrum, porttitor erat non, aliquam tellus. Integer non bibendum lorem. Praesent ligula leo, fermentum nec finibus volutpat, lacinia vitae mauris. Quisque ut nisl quis mauris ultrices luctus. Curabitur eu elit a velit cursus accumsan a nec odio. Praesent egestas, diam ornare cursus tincidunt, dolor turpis faucibus elit, ut lobortis mauris dolor vitae nunc. Suspendisse a interdum urna. Aliquam laoreet, quam a porttitor ultrices, augue ex iaculis lectus, fringilla scelerisque lorem nunc eget velit. Curabitur enim turpis, sodales eget purus in, faucibus finibus diam.</p>
-
-                        <p>Etiam tempor porttitor diam ut tincidunt. In tortor erat, pellentesque id suscipit sed, venenatis quis eros. Quisque laoreet, dolor eget elementum molestie, tellus tortor convallis nunc, at blandit tortor metus eu ante. Aenean est ipsum, vestibulum eu pretium quis, sodales a neque. Nam pretium efficitur ligula. Mauris auctor lorem tincidunt blandit facilisis. Donec massa felis, ultricies id dapibus nec, ultrices quis est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin eget tincidunt ligula, eu iaculis elit. Nullam sed dolor id lorem tincidunt consectetur id quis felis. Vivamus hendrerit nisi at elit eleifend, id tempus ipsum mollis. Pellentesque suscipit tincidunt congue.</p>
+                        <h2>Mood Teller</h2>
+                        <p>Please type in your name and current mood</p>
+                        <form id="moodForm" action="#">
+                            <label>Name: </label>
+                            <input type="text" id="name" placeholder="Enter your name...">
+                            <br><br>
+                            <label>Mood: </label>
+                            <input type="text" id="mood" placeholder="Enter your mood...">
+                            <br><br>
+                            <button onclick="showMood()">Tell Me My Mood!</button><button onclick="clearMood()">Clear Mood</button>
+                        </form>
+                        <div id="holder"></div>
                     </article>
                 </section>
                 <aside>
